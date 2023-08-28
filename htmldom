@@ -1,0 +1,11 @@
+<head>
+    <body>
+        <button onclick="F()">clickme</button>
+        <p id="demo"></p>
+        <script>
+        function F(){
+           document.getElementById("demo").innerHTML="hello world";
+        }
+    </script>
+    </body>
+</head>
